@@ -1,171 +1,172 @@
-ly<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>Iris Brook: Portfolio</title>
-		<meta name="description" content="Iris Brook: Portfolio">
-		<meta charset="utf-8">
-		<link rel="stylesheet" href="css/style.css">
-		<script src="https://kit.fontawesome.com/48988ab7bc.js" crossorigin="anonymous"></script>
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap" rel="stylesheet">
-		</head>
-
-	<body>
-		<nav>
-			<div class="nav-content">
-			  <div class="logo">
-				<a href="index.html">Iris Brook</a>
-			  </div>
-			  <ul class="nav-links">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="docs/cv.pdf">CV</a></li>
-				<li><a href="portfolio.html">Portfolio</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			  </ul>
-			</div>
-		  </nav>
-		
-		<script>
-		let nav = document.querySelector("nav");
-			window.onscroll = function() {
-			if(document.documentElement.scrollTop > 20){
-				nav.classList.add("sticky");
-			}else {
-				nav.classList.remove("sticky");
-			}
-			}
-		</script>
-		
-		<div class="banner">
-			<div class="banner-text">
-				<h1>Portfolio</h1>
-				<h2>On this page, you can find a selection of my past projects in machine learning, optimization, analytics, and business strategy.</h2>
-			</div>
-		</div>
-
-		<div class="container">
-			<div class="project_containers">
-				<div class="project_container">
-					<img src="images/abinbev.jpg" class="project_container_image">
-					<div class="project_content_container">
-						<h3>Optimal Product Recommendation Ranking Framework for E-Commerce Platform</h3>
-						<h4>This project aims to enhance the customer experience on AB InBev's B2B e-commerce app, BEES, by implementing a robust product ranking framework. 
-							Our primary goal was to provide users with personalized and dynamic product recommendations, thus improving user experience and driving sales.</h4>
-						<h4><b>Context: </b>15.572 Analytics Lab at MIT</h4>
-						<h4><b>Team members: </b>Emily Hahn, Mackenzie Lees, Pranav Girish</h4>
-						<div class="button_container">
-							<a href="docs/alab_presentation.pdf" target="docs/alab_presentation.pdf" class="project_button"> <i class="fa-sharp fa-regular fa-file-powerpoint"></i> Presentation</a>
-							<a href="docs/alab_report.pdf" target="docs/alab_report.pdf" class="project_button"> <i class="fa-sharp fa-regular fa-file-pdf"></i> Project Report</a>
-						</div>
-					</div>
-				</div>
-				<div class="project_container">
-					<img src="images/capstone.jpg" class="project_container_image">
-					<div class="project_content_container">
-						<h3>From Notes to Knowledge: Tailoring Future Client Interactions</h3>
-						<h4>This project aims to boost MFS sales team's efficiency with financial advisors by developing a tool that provides interaction history and recommends conversation topics that would drive sales. 
-							By using NLP technology, clustering, and a topic assignment model, it creates a summary document for sales professionals to better prepare for sales client meetings.</h4>
-						<h4><b>Context: </b>7-Month Capstone Project with MFS(Massachusetts Financial Services)</h4>
-						<h4><b>Team members: Xander Pero</b></h4>
-						<div class="button_container">
-							<a href="docs/capstone_presentation.pdf" target="docs/capstone_presentation.pdf" class="project_button"> <i class="fa-sharp fa-regular fa-file-powerpoint"></i> Presentation</a>
-							<a href="docs/capstone_report.pdf" target="docs/capstone_report.pdf" class="project_button"> <i class="fa-sharp fa-regular fa-file-pdf"></i> Project Report</a>
-							<a href="docs/capstone_poster.pdf" target="docs/capstone_poster.pdf" class="project_button"> <i class="fa-sharp fa-regular fa-file-pdf"></i> Poster</a>
-
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="project_containers">
-				<div class="project_container">
-					<img src="images/ml.jpg" class="project_container_image">
-					<div class="project_content_container">
-						<h3>Optimizing Airport Arrival Times Using Policy Trees</h3>
-						<h4>This project develops a machine learning methodology to forecast flight delays using Optimal Regression Trees and optimize airport arrival schedules with Policy Trees, improving travel planning and reducing waiting times. 
-							By combining predictive analytics with personalized decision-making frameworks, it aims to transform how passengers plan for airport arrivals and enhance their overall travel experience.</h4>
-						</h4>
-						<h4><b>Context: </b>15.095 Machine Learning Under a Modern Optimization Lens at MIT</h4>
-						<h4><b>Team members: </b>Mackenzie Lees</h4>
-						<div class="button_container">
-							<a href="docs/ml_presentation.pdf" target="docs/ml_presentation.pdf" class="project_button"> <i class="fa-sharp fa-regular fa-file-powerpoint"></i> Presentation</a>
-							<a href="docs/ml_doc.pdf" target="docs/ml_report.pdf" class="project_button"> <i class="fa-sharp fa-regular fa-file-pdf"></i> Project Report</a>
-						</div>	
-					</div>
-				</div>
-				<div class="project_container">
-					<img src="images/opti.png" class="project_container_image">
-					<div class="project_content_container">
-						<h3>Optimizing Bus Routes: Boston MBTA</h3>
-						<h4>This project integrates optimization techniques into the MBTA's extensive bus network to enhance efficiency, improve resource allocation, and elevate passenger experiences through data-driven decision-making. 
-							By analyzing ridership patterns, route efficiencies, and operational constraints, it demonstrates the transformative potential of big data and advanced analytics in reshaping public transportation systems.</h4>
-						<h4><b>Context: </b>15.093/6.7201 Optimization Methods at MIT</h4>
-						<h4><b>Team members: </b>Luca-Andrei Manea</h4>
-						<div class="button_container">
-							<a href="docs/opti_presentation.pdf" target="docs/opti_presentation.pdf" class="project_button"> <i class="fa-sharp fa-regular fa-file-powerpoint"></i> Presentation</a>
-							<a href="docs/opti_report.pdf" target="docs/opti_report.pdf" class="project_button"> <i class="fa-sharp fa-regular fa-file-pdf"></i> Project Report</a>
-						</div>	
-					</div>
-				</div>
-			</div>
-			<div class="project_containers">
-				<div class="project_container">
-					<img src="images/marketing.jpg" class="project_container_image">
-					<div class="project_content_container">
-						<h3>Dashboard for Uber's General Manager in NYC</h3>
-						<h4>This project involves creating an interactive dashboard analyzing Uber's performance in New York City, comparing it to Lyft and taxis using 2021 TLC Trip Record Data to uncover actionable insights for market optimization. 
-							By incorporating filters for time, boroughs, and key metrics, along with visualizations of ride trends, fares, and geographic demand shifts, it equips Uber managers with strategic tools to enhance market presence and operational efficiency.</h4>
-						<h4><b>Context: </b>15.819 Marketing & Product Analytics at MIT</h4>
-						<h4><b>Team members: </b>Fiona Aga, Maxime Allouch, Vojta Machytka</h4>
-						<div class="button_container">
-							<a href="docs/marketing_dashboard.mp4" target="docs/marketing_dashboard.mp4" class="project_button"> <i class="fa-sharp fa-regular fa-file-powerpoint"></i> Dashboard</a>
-						</div>
-					</div>
-				</div>
-				<div class="project_container">
-					<img src="images/edge.jpg" class="project_container_image">
-					<div class="project_content_container">
-						<h3>Decoding Delta: A Comprehensive Exploration of Flight Delays and Cancellations</h3>
-						<h4>This project investigates Delta Air Lines' flight delays and cancellations in 2021, focusing on enhancing prediction accuracy and understanding operational challenges across airports, time periods, and days. 
-							By emphasizing nuanced feature generation, such as flight congestion and proximity to holidays, it aims to provide data-driven insights to improve airline operations and passenger experiences.
-						</h4>
-						<h4><b>Context: </b>Advanced Analytics Edge (15.072) at MIT</h4>
-						<h4><b>Team members: </b>Lucy Liu, Krishanu Datta, Devin Wasilefsky</h4>
-						<div class="button_container">
-							<a href="docs/edge_presentation.pdf" target="docs/edge_presentation.pdf" class="project_button"> <i class="fa-sharp fa-regular fa-file-powerpoint"></i> Presentation</a>
-							<a href="docs/edge_report.pdf" target="docs/edge_report.pdf" class="project_button"> <i class="fa-sharp fa-regular fa-file-pdf"></i> Project Report</a>
-							<a href="https://colab.research.google.com/drive/1tT2YqVpMcmuG-xr_6EI_6H0zYbynLs54?usp=sharing" target="https://colab.research.google.com/drive/1tT2YqVpMcmuG-xr_6EI_6H0zYbynLs54?usp=sharing" class="project_button"> <i class="fa-sharp fa-solid fa-code"></i> Code</a>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="project_containers">
-				<div class="project_container">
-					<img src="images/hodl.jpg" class="project_container_image">
-					<div class="project_content_container">
-						<h3>Creating an LLM-based Chatbot to Form Recipes out of a List of Ingridients</h3>
-						<h4>This project aims to alleviate stress and reduce time spent on meal preparation for busy graduate students by generating cooking recipes based on available ingredients. 
-							We tuned several LLMs, including GPT, LLaMa, and Gemma, to generate recipes based on an inputted list of ingredients.</h4>
-						<h4><b>Context: </b>15.773 Hands-on Deep Learning at MIT</h4>
-						<h4><b>Team members: Joe Kajon, Mackenzie Lees, Hayden Ratliff</b></h4>
-						<div class="button_container">
-							<a href="docs/hodl_presentation.pdf" target="docs/hodl_presentation.pdf" class="project_button"> <i class="fa-sharp fa-regular fa-file-powerpoint"></i> Presentation</a>
-							<a href="docs/hodl_report.pdf" target="docs/hodl_report.pdf" class="project_button"> <i class="fa-sharp fa-regular fa-file-pdf"></i> Project Report</a>
-							<a href="docs/hodl_code.pdf" target="docs/hodl_code.pdf" class="project_button"> <i class="fa-sharp fa-solid fa-code"></i> Code</a>
-					</div>
-				</div>
-			</div>			
-		
-		<div class="footer">
-			<h2>Iris Brook</h2>
-			<ul class="list-inline">
-				<li>
-					<a href="mailto:iris.brook123@gmail.com"><i class="fa-regular fa-envelope"></i></a>
-				</li>
-				<li>
-					<a href="https://www.linkedin.com/in/iris-brook/"><i class="fab fa-linkedin"></i></a>
-				</li>
-			</ul>
-		</div>
-	</body>
+   <head>
+      <title>Iris Brook: Portfolio</title>
+      <meta name="description" content="Iris Brook: Portfolio">
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="css/style.css">
+      <script src="https://kit.fontawesome.com/48988ab7bc.js" crossorigin="anonymous"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;700&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <nav>
+         <div class="nav-content">
+            <div class="logo">
+               <a href="index.html">Iris Brook</a>
+            </div>
+            <ul class="nav-links">
+               <li><a href="index.html">Home</a></li>
+               <li><a href="docs/cv.pdf">CV</a></li>
+               <li><a href="portfolio.html">Portfolio</a></li>
+               <li><a href="contact.html">Contact</a></li>
+            </ul>
+         </div>
+      </nav>
+      <script>
+         let nav = document.querySelector("nav");
+         	window.onscroll = function() {
+         	if(document.documentElement.scrollTop > 20){
+         		nav.classList.add("sticky");
+         	}else {
+         		nav.classList.remove("sticky");
+         	}
+         	}
+      </script>
+      <div class="banner">
+         <div class="banner-text">
+            <h1>Portfolio</h1>
+            <h2>On this page, you can find a selection of my past projects in machine learning, optimization, analytics, and business strategy.</h2>
+         </div>
+      </div>
+      <div class="container">
+      <div class="project_containers">
+         <div class="project_container">
+            <img src="images/abinbev.jpg" class="project_container_image">
+            <div class="project_content_container">
+               <h3>Optimal Product Recommendation Ranking Framework for E-Commerce Platform</h3>
+               <h4>This project aims to enhance the customer experience on AB InBev's B2B e-commerce app, BEES, by implementing a robust product ranking framework. 
+                  Our primary goal was to provide users with personalized and dynamic product recommendations, thus improving user experience and driving sales.
+               </h4>
+               <h4><b>Context: </b>15.572 Analytics Lab at MIT</h4>
+               <h4><b>Team members: </b>Emily Hahn, Mackenzie Lees, Pranav Girish</h4>
+               <div class="button_container">
+                  <a href="docs/alab_presentation.pdf" target="docs/alab_presentation.pdf" class="project_button"> <i class="fa-sharp fa-regular fa-file-powerpoint"></i> Presentation</a>
+                  <a href="docs/alab_report.pdf" target="docs/alab_report.pdf" class="project_button"> <i class="fa-sharp fa-regular fa-file-pdf"></i> Project Report</a>
+               </div>
+            </div>
+         </div>
+         <div class="project_container">
+            <img src="images/capstone.jpg" class="project_container_image">
+            <div class="project_content_container">
+               <h3>From Notes to Knowledge: Tailoring Future Client Interactions</h3>
+               <h4>This project aims to boost MFS sales team's efficiency with financial advisors by developing a tool that provides interaction history and recommends conversation topics that would drive sales. 
+                  By using NLP technology, clustering, and a topic assignment model, it creates a summary document for sales professionals to better prepare for sales client meetings.
+               </h4>
+               <h4><b>Context: </b>7-Month Capstone Project with MFS(Massachusetts Financial Services)</h4>
+               <h4><b>Team members: Xander Pero</b></h4>
+               <div class="button_container">
+                  <a href="docs/capstone_presentation.pdf" target="docs/capstone_presentation.pdf" class="project_button"> <i class="fa-sharp fa-regular fa-file-powerpoint"></i> Presentation</a>
+                  <a href="docs/capstone_report.pdf" target="docs/capstone_report.pdf" class="project_button"> <i class="fa-sharp fa-regular fa-file-pdf"></i> Project Report</a>
+                  <a href="docs/capstone_poster.pdf" target="docs/capstone_poster.pdf" class="project_button"> <i class="fa-sharp fa-regular fa-file-pdf"></i> Poster</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="project_containers">
+         <div class="project_container">
+            <img src="images/ml.jpg" class="project_container_image">
+            <div class="project_content_container">
+               <h3>Optimizing Airport Arrival Times Using Policy Trees</h3>
+               <h4>This project develops a machine learning methodology to forecast flight delays using Optimal Regression Trees and optimize airport arrival schedules with Policy Trees, improving travel planning and reducing waiting times. 
+                  By combining predictive analytics with personalized decision-making frameworks, it aims to transform how passengers plan for airport arrivals and enhance their overall travel experience.
+               </h4>
+               </h4>
+               <h4><b>Context: </b>15.095 Machine Learning Under a Modern Optimization Lens at MIT</h4>
+               <h4><b>Team members: </b>Mackenzie Lees</h4>
+               <div class="button_container">
+                  <a href="docs/ml_presentation.pdf" target="docs/ml_presentation.pdf" class="project_button"> <i class="fa-sharp fa-regular fa-file-powerpoint"></i> Presentation</a>
+                  <a href="docs/ml_doc.pdf" target="docs/ml_report.pdf" class="project_button"> <i class="fa-sharp fa-regular fa-file-pdf"></i> Project Report</a>
+               </div>
+            </div>
+         </div>
+         <div class="project_container">
+            <img src="images/opti.png" class="project_container_image">
+            <div class="project_content_container">
+               <h3>Optimizing Bus Routes: Boston MBTA</h3>
+               <h4>This project integrates optimization techniques into the MBTA's extensive bus network to enhance efficiency, improve resource allocation, and elevate passenger experiences through data-driven decision-making. 
+                  By analyzing ridership patterns, route efficiencies, and operational constraints, it demonstrates the transformative potential of big data and advanced analytics in reshaping public transportation systems.
+               </h4>
+               <h4><b>Context: </b>15.093/6.7201 Optimization Methods at MIT</h4>
+               <h4><b>Team members: </b>Luca-Andrei Manea</h4>
+               <div class="button_container">
+                  <a href="docs/opti_presentation.pdf" target="docs/opti_presentation.pdf" class="project_button"> <i class="fa-sharp fa-regular fa-file-powerpoint"></i> Presentation</a>
+                  <a href="docs/opti_report.pdf" target="docs/opti_report.pdf" class="project_button"> <i class="fa-sharp fa-regular fa-file-pdf"></i> Project Report</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="project_containers">
+         <div class="project_container">
+            <img src="images/marketing.jpg" class="project_container_image">
+            <div class="project_content_container">
+               <h3>Dashboard for Uber's General Manager in NYC</h3>
+               <h4>This project involves creating an interactive dashboard analyzing Uber's performance in New York City, comparing it to Lyft and taxis using 2021 TLC Trip Record Data to uncover actionable insights for market optimization. 
+                  By incorporating filters for time, boroughs, and key metrics, along with visualizations of ride trends, fares, and geographic demand shifts, it equips Uber managers with strategic tools to enhance market presence and operational efficiency.
+               </h4>
+               <h4><b>Context: </b>15.819 Marketing & Product Analytics at MIT</h4>
+               <h4><b>Team members: </b>Fiona Aga, Maxime Allouch, Vojta Machytka</h4>
+               <div class="button_container">
+                  <a href="docs/marketing_dashboard.mp4" target="docs/marketing_dashboard.mp4" class="project_button"> <i class="fa-sharp fa-regular fa-file-powerpoint"></i> Dashboard</a>
+               </div>
+            </div>
+         </div>
+         <div class="project_container">
+            <img src="images/edge.jpg" class="project_container_image">
+            <div class="project_content_container">
+               <h3>Decoding Delta: A Comprehensive Exploration of Flight Delays and Cancellations</h3>
+               <h4>This project investigates Delta Air Lines' flight delays and cancellations in 2021, focusing on enhancing prediction accuracy and understanding operational challenges across airports, time periods, and days. 
+                  By emphasizing nuanced feature generation, such as flight congestion and proximity to holidays, it aims to provide data-driven insights to improve airline operations and passenger experiences.
+               </h4>
+               <h4><b>Context: </b>Advanced Analytics Edge (15.072) at MIT</h4>
+               <h4><b>Team members: </b>Lucy Liu, Krishanu Datta, Devin Wasilefsky</h4>
+               <div class="button_container">
+                  <a href="docs/edge_presentation.pdf" target="docs/edge_presentation.pdf" class="project_button"> <i class="fa-sharp fa-regular fa-file-powerpoint"></i> Presentation</a>
+                  <a href="docs/edge_report.pdf" target="docs/edge_report.pdf" class="project_button"> <i class="fa-sharp fa-regular fa-file-pdf"></i> Project Report</a>
+                  <a href="https://colab.research.google.com/drive/1tT2YqVpMcmuG-xr_6EI_6H0zYbynLs54?usp=sharing" target="https://colab.research.google.com/drive/1tT2YqVpMcmuG-xr_6EI_6H0zYbynLs54?usp=sharing" class="project_button"> <i class="fa-sharp fa-solid fa-code"></i> Code</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="project_containers">
+         <div class="project_container">
+            <img src="images/hodl.jpg" class="project_container_image">
+            <div class="project_content_container">
+               <h3>Creating an LLM-based Chatbot to Form Recipes out of a List of Ingridients</h3>
+               <h4>This project aims to alleviate stress and reduce time spent on meal preparation for busy graduate students by generating cooking recipes based on available ingredients. 
+                  We tuned several LLMs, including GPT, LLaMa, and Gemma, to generate recipes based on an inputted list of ingredients.
+               </h4>
+               <h4><b>Context: </b>15.773 Hands-on Deep Learning at MIT</h4>
+               <h4><b>Team members: Joe Kajon, Mackenzie Lees, Hayden Ratliff</b></h4>
+               <div class="button_container">
+                  <a href="docs/hodl_presentation.pdf" target="docs/hodl_presentation.pdf" class="project_button"> <i class="fa-sharp fa-regular fa-file-powerpoint"></i> Presentation</a>
+                  <a href="docs/hodl_report.pdf" target="docs/hodl_report.pdf" class="project_button"> <i class="fa-sharp fa-regular fa-file-pdf"></i> Project Report</a>
+                  <a href="docs/hodl_code.pdf" target="docs/hodl_code.pdf" class="project_button"> <i class="fa-sharp fa-solid fa-code"></i> Code</a>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="footer">
+         <h2>Iris Brook</h2>
+         <ul class="list-inline">
+            <li>
+               <a href="mailto:iris.brook123@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+            </li>
+            <li>
+               <a href="https://www.linkedin.com/in/iris-brook/"><i class="fab fa-linkedin"></i></a>
+            </li>
+         </ul>
+      </div>
+   </body>
 </html>
